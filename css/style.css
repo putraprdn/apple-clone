@@ -42,6 +42,14 @@ select {
 	font-family: "SFProText-Semibold";
 	src: url(../assets/SFProText-Semibold.ttf);
 }
+@font-face {
+	font-family: "SFProDisplay-Regular";
+	src: url(../assets/SFProDisplay-Regular.ttf);
+}
+@font-face {
+	font-family: "SFProDisplay-Semibold";
+	src: url(../assets/SFProDisplay-Semibold.ttf);
+}
 
 /* 
 * ---------------- Main CSS */
@@ -57,10 +65,20 @@ a {
 }
 
 .nav {
+	position: fixed;
+	display: flex;
+	width: 100%;
 	font-size: 0.75rem;
 	background-color: #000;
 	/* padding: 0.2rem; */
 	line-height: 2.75rem;
+	justify-content: center;
+	align-items: center;
+}
+.nav__title {
+	width: 1px;
+	font-size: 1px;
+	height: 1px;
 }
 .nav__list {
 	display: flex;
@@ -82,7 +100,7 @@ a {
 	flex-direction: column;
 	align-items: center;
 	row-gap: 1.8rem;
-	padding: 1rem 0;
+	padding: 3.5rem 0 1rem;
 	font-size: 0.875rem;
 	list-style: 1.25rem;
 	background-color: #f5f5f7;
@@ -135,6 +153,8 @@ a {
 }
 .jumbotron__link-wrap a {
 	font-size: 1.3125rem;
+	align-items: center;
+	justify-content: center;
 }
 .jumbotron__image {
 	margin-top: 1.5rem;
@@ -160,10 +180,108 @@ a {
 	justify-content: center;
 	align-items: center;
 }
-.watch .jumbotron__span, .watch .jumbotron__subtitle {
+.watch .jumbotron__span {
 	color: #bf4800;
 }
 .watch .jumbotron__image {
 	margin-top: 0.3rem;
 	width: 75rem;
+}
+
+/* 
+*------------------- Grid */
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.8rem;
+	background-color: #fbfbfd;
+}
+.grid .jumbotron {
+	flex-basis: 48%;
+	height: 30rem;
+	padding-top: 2.5rem;
+	margin-bottom: 0;
+}
+.grid .jumbotron__text-wrap {
+	align-items: center;
+	justify-content: center;
+}
+.grid .jumbotron__title {
+	font-size: 2.5rem;
+}
+.grid .jumbotron__subtitle {
+	font-size: 1.3rem;
+}
+.grid .extend {
+	font-size: 1.06rem;
+}
+.grid .extend sup {
+	font-size: 10px;
+}
+
+/* * Fitness */
+.grid .jumbotron:nth-child(1) {
+	background-image: url(../assets/image/tile_winter__bpktzwl6hsc2_large.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+/* * MacBook */
+.grid .jumbotron:nth-child(2) {
+	background-image: url(../assets/image/tile_macbookpro__cx0ur0qg9biq_large.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 50%;
+}
+.grid .jumbotron:nth-child(2) .jumbotron__subtitle {
+	margin-top: -0.8rem;
+}
+/* * AirPods */
+.grid .jumbotron:nth-child(3) {
+	background-image: url(../assets/image/tile_airpods__fuv6vgn42y2q_large.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 50%;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+/* * Music */
+.grid .jumbotron:nth-child(4) {
+	background-image: url(../assets/image/promo_spatial_audio_j_balvin__clvcnr2slw9y_large.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 50% 30%;
+	color: #fff;
+}
+
+/* * Card */
+.grid .jumbotron:nth-child(5) {
+	background-image: url(../assets/image/tile_apple_card__cwonh0wb00om_large.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 50% 30%;
+}
+.grid .jumbotron__text-wrap p {
+	color: #6e6e73;
+}
+
+/* * Tv + */
+.grid .jumbotron:nth-child(6) {
+	background-image: url(../assets/image/promo_macbeth__e671onn69r8m_large.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: 50% 30%;
+	justify-content: flex-end;
+	align-items: center;
+}
+.grid .jumbotron:nth-child(6) p,
+.grid .jumbotron:nth-child(6) a {
+	color: #fff;
+}
+.grid .jumbotron:nth-child(6) p {
+	font-size: 1.3125rem;
+}
+.grid .extend::after {
+	content: "";
 }
