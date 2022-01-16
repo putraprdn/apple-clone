@@ -96,9 +96,11 @@ a {
 }
 .title {
 	font-weight: 500;
+	font-family: "SFProDisplay-Semibold";
 }
 .subtitle {
 	font-weight: 400;
+	font-family: "SFProDisplay-Regular";
 }
 
 .jumbotron {
@@ -115,13 +117,13 @@ a {
 	row-gap: 0.6rem;
 }
 .jumbotron__title {
-	font-family: "SFProText-Semibold";
+	/* font-family: "SFProDisplay-Semibold"; */
 	font-size: 3.5rem;
 	line-height: 3.75rem;
 	font-weight: 500;
 }
 .jumbotron__subtitle {
-	font-family: "SFProText-Regular";
+	/* font-family: ""; */
 	font-size: 1.75rem;
 	letter-spacing: 0.112px;
 }
