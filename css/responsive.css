@@ -2,21 +2,54 @@
 * ----------------- Responsive Goes Here */
 
 @media screen and (max-width: 1200px) {
-    html {
-        font-size: 15px;
-    }
+	html {
+		font-size: 15px;
+	}
 }
 
 @media screen and (max-width: 1024px) {
-    html {
-        font-size: 13px;
+	html {
+		font-size: 13px;
+	}
+
+	.nav__list {
+		align-items: center;
+	}
+
+    .footer {
+        font-size: 0.95rem;
+    }
+	.footer__description,
+	.footer__nav,
+	.footer__copyright,
+	.footer__info {
+		width: 100%;
+		min-width: 1024px;
+	}
+	.footer__description ol,
+	.footer__nav ul,
+	.footer__copyright ul,
+	.footer__info {
+		padding: 0 2rem;
+	}
+
+    .footer__info {
+        margin: 1.5rem 0 0;
+    }
+    .footer__description::after {
+        content: "";
+        border-bottom: 1px solid #d2d2d2;
+        padding-bottom: 0.5rem;
+    }
+    .footer ol::after {
+        padding-bottom: 0.3rem;
     }
 }
 
 @media screen and (max-width: 768px) {
-    html {
-        font-size: 12px;
-    }
+	html {
+		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 480px) {
