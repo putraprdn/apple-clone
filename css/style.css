@@ -195,6 +195,8 @@ a {
 	flex-wrap: wrap;
 	gap: 0.8rem;
 	background-color: #fbfbfd;
+	justify-content: center;
+	margin-bottom: 0.8rem;
 }
 .grid .jumbotron {
 	flex-basis: 48%;
@@ -284,4 +286,38 @@ a {
 }
 .grid .extend::after {
 	content: "";
+}
+
+.footer {
+	display: flex;
+	font-size: 0.75rem;
+	line-height: 1rem;
+	background-color: #f5f5f7;
+	color: #6e6e73;
+	justify-content: center;
+}
+.footer ol {
+	display: flex;
+	width: 80%;
+	row-gap: 0.5rem;
+	flex-direction: column;
+	padding-bottom: 1rem;
+}
+.footer ol::after {
+	content: "";
+	position: relative;
+	display: flex;
+	border-bottom: 1px solid #d2d2d7;
+}
+.footer__bold {
+	font-family: "SFProText-Semibold";
+}
+.footer a {
+	color: #424245;
+}
+.footer li:nth-child(3) p:not(:first-child) {
+	margin-top: 0.5rem;
+}
+.footer li:nth-child(3) p:last-child {
+	margin-bottom: 0.7rem;
 }
