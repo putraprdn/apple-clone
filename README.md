@@ -1,36 +1,26 @@
 # Apple Website Clone
 
-The original website is [here.](www.apple.com)
+The original website is [here.](www.apple.com) (it may changed).
 
 ## Table of contents
 
 - [Overview](#overview)
-  - [To do](#to-do)
+  - [Progress](#progress)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Author](#author)
 
-### To do
+### Progress
 
-- [ ] Main Content
+- [x] Main Content
 - [ ] Active state
-- [ ] Small screen (1024px)
+- [x] Small screen PC (1024px)
 - [ ] Tablet (768px)
 - [ ] Mobile (440px)
 
 ### Screenshot
 
-Soon!
 ![](https://github.com/putraprdn/apple-clone/blob/master/assets/image/Apple%20Design.png?raw=true)
 
 ### Links
 
 - Live Site URL: [Via Github](https://putraprdn.github.io/apple-clone/)
-
-
-**#1 Author**
-- LinkedIn - [Muhamad Putra Perdana](https://www.linkedin.com/in/putraprdn)
-
-<!-- **#2 Author**
-- LinkedIn - [#](https://github.com/user)
-- Github - [@#](https://github.com/user) -->
