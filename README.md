@@ -1,21 +1,23 @@
 # Apple Website Clone
 
-The original website is [here.](www.apple.com) (it may changed).
+The original website is [here.](https://www.apple.com/) (it may changed).
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Progress](#progress)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+-   [Overview](#overview)
+    -   [Progress](#progress)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
 
 ### Progress
 
-- [x] Main Content
-- [ ] Active state
-- [x] Small screen PC (1024px)
-- [ ] Tablet (768px)
-- [ ] Mobile (440px)
+_Currently in progress_
+
+-   [x] Main Content
+-   [x] Active state
+-   [x] Small screen PC (1024px)
+-   [x] Tablet (768px)
+-   [ ] Mobile (440px)
 
 ### Screenshot
 
@@ -23,4 +25,4 @@ The original website is [here.](www.apple.com) (it may changed).
 
 ### Links
 
-- Live Site URL: [Via Github](https://putraprdn.github.io/apple-clone/)
+-   Live Site URL: [Via Github](https://putraprdn.github.io/apple-clone/)
