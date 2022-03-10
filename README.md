@@ -1,6 +1,6 @@
 # Apple Website Clone
 
-The original website is [here.](https://www.apple.com/) (it may changed).
+The original website is [here.](https://www.apple.com/) (it may have changed).
 
 ## Table of contents
 
